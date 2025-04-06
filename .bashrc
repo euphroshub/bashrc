@@ -112,7 +112,7 @@ venv() {
 # Function to activate a virtual environment with a dynamic name
 source_env() {
     if [ -z "$1" ]; then
-        echo "Usage: activ_env <project_name>"
+        echo "Usage: source_env <project_name>"
         return 1
     fi
     source "$1/env/bin/activate"
